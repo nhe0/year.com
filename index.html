@@ -118,7 +118,7 @@ color:orange;
     <div class="wrapper">
       <div class="heading">
         <h3>Countdown To</h3>
-        <h1>2023</h1>
+        <h1>2024</h1>
       </div>
       <div class="countdown">
         <div class="box">
@@ -145,7 +145,7 @@ let dayBox = document.getElementById("day-box");
 let hrBox = document.getElementById("hr-box");
 let minBox = document.getElementById("min-box");
 let secBox = document.getElementById("sec-box");
-let endDate = new Date(2023, 0, 1, 00, 00);
+let endDate = new Date(2024, 0, 1, 00, 00);
 let endTime = endDate.getTime();
 
 function countdown() {
@@ -162,7 +162,7 @@ function countdown() {
     clearInterval(i);
     document.querySelector(
       ".countdown"
-    ).innerHTML = `<h1 class="hal">today is the first blank page of a 365 book <i>write a good one</i><br>I Wish You the Happiest New Year</h1>`;
+    ).innerHTML = `<h1 class="hal">today is the first blank page of a 365 book <i>write a good one ;)</i><br>I Wish You the Happiest New Year</h1>`;
   } else {
     let daysLeft = Math.floor(remainingTime / oneDay);
     let hrsLeft = Math.floor((remainingTime % oneDay) / oneHr);
